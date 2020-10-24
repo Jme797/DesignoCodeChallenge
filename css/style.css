@@ -1,0 +1,260 @@
+/* Home page first article  */
+
+#home__phoneImage {
+    position: absolute;
+    right: -50px;
+    top: 0;
+}
+#home__circleBackground {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#home__pageHead {
+    height: 600px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+#home__main-text {
+    width: 550px;
+    margin-left: 50px;
+}
+#home__main-text p {
+    width: 80%;
+}
+
+/* Page header with image split for about page and contact page */
+
+.pageHeader__imageSplit {
+    height: 480px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+    padding-top: 0px;
+}
+.pageHeader__imageSplit-circle {
+    position: absolute;
+    bottom: 0;
+}
+
+#home__main-text {
+    margin: 0;
+}
+
+/* Styling for header images */
+
+.headerImg__fixright {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.headerImg__fixleft {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.paddingLeft {
+    padding-left: 500px;
+}
+
+/* Styling for the location divs */
+
+.pageHeader__mapSplit {
+    width: 100%;
+    height: 326px !important;
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+    font-size: 0;
+}
+
+.locations__maps {
+    width: 35%;
+    height: 100%;
+    box-sizing: border-box;
+    vertical-align: top;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.locations__textDiv {
+    display: inline-block;
+    width: 63% !important;
+    height: 100% !important;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 5%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.location__mgr {
+    margin-right: 2% !important;
+    margin-left: 0 !important;
+}
+.location__mgl {
+    margin-left: 2% !important;
+    margin-right: 0 !important;
+}
+
+.locations__textDiv p {
+    line-height: 10px;
+}
+.locations__textDiv h1 {
+    padding-bottom: 20px;
+}
+.large_map {
+    width: 100%;
+    display: none;
+    border-radius: 25px;
+}
+
+/* Image links design */
+#home__imgLinks {
+    height: fit-content;
+    font-size: 0;
+}
+.home__imgLinks-split {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.image-links__container {
+    height: 287.5px;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 96%;
+    margin: 25px 2%;
+}
+#image-links__appDesign h2 {
+    letter-spacing: 2px;
+}
+.inlineTextArrow {
+    position: relative;
+    top: -2px;
+}
+.image-links__text {
+    background-color: rgba(7, 7, 7, 0.548);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.image-links__text:hover {
+    background-color: rgba(255, 173, 155, 0.548);
+}
+/* Split image links for when theres only two options */
+
+.two__image-links__container {
+    width: 46%;
+    display: inline-block;
+}
+
+/* Image links assign images */
+
+#image-links__appDesign {
+    background-image: url("../assets/home/desktop/image-app-design.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#image-links__graphicDesign {
+    background-image: url("../assets/home/desktop/image-graphic-design.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#image-links__webDesign {
+    background-image: url("../assets/home/desktop/image-web-design-small.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Set double height for home image links */
+
+.image-links__webDesign-doubleHeight {
+    height: 600px;
+}
+
+/* Home Illustration section */
+
+.home__illustration-container {
+    flex-grow: 1;
+    width: 33%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 35px;
+    height: fit-content;
+}
+
+#home__illustration-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* Page Headers */
+
+.pHeaderDiv {
+    padding: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;;
+}
+.pHeaderDiv img {
+    position: absolute;
+    top: -150px;
+    right: 0;
+}
+.pHeaderDiv p {
+    width: 350px;
+    margin: 0 auto;
+}
+
+/* Cards styles */
+
+.cards img {
+    width: 100%;
+    min-height: 320px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.cardsText {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.cardsText p {
+    color: #333136;
+    margin-top: 0;
+}
+.cardsText h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase !important;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 0;
+}
+.card {
+    width: 350px;
+    flex-basis: 33%;
+}
+.cardPad {
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+.caps {
+    text-transform: uppercase !important;
+}

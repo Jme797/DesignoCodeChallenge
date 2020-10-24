@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <link rel="stylesheet" type="text/css" href="css/default.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/media-tablet.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
+
+
+  <title>Frontend Mentor | Designo Agency Website Challenge</title>
+</head>
+
+<body>
+
+  <nav id="navBar">
+    <a href="index.html"><img src="assets/shared/desktop/logo-dark.png" /></a>
+    <ul id="navLinks" class="links">
+      <li><a class="caps" href="about.html">Our Company</a></li>
+      <li><a class="caps" href="locations.html">Locations</a></li>
+      <li><a class="caps" href="contact.html">Contact</a></li>
+    </ul>
+    <img src="assets/shared/mobile/icon-hamburger.svg" id="hamburger">
+  </nav>
+
+  <div class="container">
+    <section id="contactMainSection" class="pageHeader__imageSplit vertCenter__flex bgP mgb-100">
+      <img class="pageHeader__imageSplit-circle" src="assets/about/desktop/bg-pattern-hero-about-desktop.svg" />
+      <div id="home__main-text">
+        <h1 class="fcWhite">Contact us</h1>
+        <p class="fcWhite">Ready to take it to the next level? Let’s talk about your project or idea and find out how
+          we can help your business grow. If you are looking for unique digital experiences that’s
+          relatable to your users, drop us a line.</p>
+      </div>
+      <form class="headerImg__fixright">
+        <div>
+          <input type="text" name="name" placeholder="Name">
+        </div>
+        <div>
+          <input type="text" name="email" placeholder="Email address">
+        </div>
+        <div>
+          <input type="text" name="phone" placeholder="Phone">
+        </div>
+        <div>
+          <textarea name="message" placeholder="Your message"></textarea>
+        </div>
+        <div class="buttonRight"><button class="buttonDark">Submit</button></div>
+      </form>
+    </section>
+
+    <div id="home__illustration-section" class="mgb-200">
+      <div class="home__illustration-container">
+        <img src="assets/shared/desktop/illustration-canada.svg" />
+        <h3 class="fcBlack pdb-20">canada</h3>
+        <a href="locations.html#canada"><button class="buttonLight">See Location</button></a>
+      </div>
+      <div class="home__illustration-container">
+        <img src="assets/shared/desktop/illustration-australia.svg" />
+        <h3 class="fcBlack pdb-20">Australia</h3>
+        <a href="locations.html#australia"><button class="buttonLight">See Location</button></a>
+      </div>
+      <div class="home__illustration-container">
+        <img src="assets/shared/desktop/illustration-united-kingdom.svg" />
+        <h3 class="fcBlack pdb-20">England</h3>
+        <a href="locations.html#uk"><button class="buttonLight">See Location</button></a>
+      </div>
+    </div>
+  </div>
+  <footer class="bgB noCallToAction">
+    <div id="navContFooter" class="container">
+      <img src="assets/shared/desktop/logo-light.png">
+      <ul>
+        <li><a class="fcWhite" href="about.html">OUR COMPANY</a></li>
+        <li><a class="fcWhite" href="locations.html">LOCATIONS</a></li>
+        <li><a class="fcWhite" href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="footerContactText">
+        <p>Designo Central Office</p>
+        <p>3886 Wellington Street</p>
+        <p>Toronto, Ontario M9C 3J5</p>
+      </div>
+      <div class="footerContactText">
+        <p>Contact Us (Central Office)</p>
+        <p>P : +1 253-863-8967</p>
+        <p>M : contact@designo.co</p>
+      </div>
+    </div>
+    <div id="iconContainer" class="container">
+      <img src="assets/shared/desktop/icon-facebook.svg">
+      <img src="assets/shared/desktop/icon-youtube.svg">
+      <img src="assets/shared/desktop/icon-twitter.svg">
+      <img src="assets/shared/desktop/icon-pinterest.svg">
+      <img src="assets/shared/desktop/icon-instagram.svg">
+    </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
